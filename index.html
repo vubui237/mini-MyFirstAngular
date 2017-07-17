@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="FriendsList">
+<head>
+    <link rel="stylesheet" href="styles.css"></link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body ng-controller="noobs">
+    My name is: {{name}} and here is an angular test to present people from an array: 
+<li  ng-repeat="friend in friends">
+    {{friend}}
+</li>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+<script src="app.js"></script>
+</html>
